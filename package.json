@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "user-statistics-obsidian",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Integrates a user statistics view displaying the user data.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
