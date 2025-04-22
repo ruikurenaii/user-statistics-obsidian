@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "user-statistics-obsidian",
+	"name": "User Statistics",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"minAppVersion": "1.8.0",
+	"description": "Integrates a user statistics view displaying the user data.",
+	"author": "Louie Kurenai",
+	"authorUrl": "https://github.com/ruikurenaii",
+	"fundingUrl": "https://ko-fi.com/ruikurenaii",
 	"isDesktopOnly": false
 }
