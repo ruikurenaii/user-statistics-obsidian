@@ -31,7 +31,11 @@ export default class UserStatsPlugin extends Plugin {
     });
 	}
 
-	this.addRibbonIcon("lucide-file-chart-column", "View user statistics", async () => {
+	this.addRibbonIcon(
+    "lucide-file-chart-column",
+    "View user statistics",
+    async () => {
+      await this.activateView();
     }
   );
 
