@@ -2,6 +2,7 @@
 import { App, Plugin } from 'obsidian';
 import { UserStatsSettings } from "./settings/settingsInterface";
 import { DEFAULT_SETTINGS } from "./settings/defaultSettings";
+import { UserStatsView, VIEW_TYPE_USERSTATS } from "./views/userStatistics";
 import { UserStatsSettingsTab } from "./options/options";
 
 export default class UserStatsPlugin extends Plugin {
@@ -30,7 +31,7 @@ export default class UserStatsPlugin extends Plugin {
     });
 	}
 
-	this.addRibbon("lucide-file-chart-column", "View user statistics", async () => {
+	this.addRibbonIcon("lucide-file-chart-column", "View user statistics", async () => {
     }
   );
 
