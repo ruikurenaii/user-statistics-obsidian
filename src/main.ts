@@ -1,3 +1,4 @@
+// main source
 import { App, Plugin } from 'obsidian';
 import { UserStatsSettings } from "./settings/settingsInterface";
 import { DEFAULT_SETTINGS } from "./settings/defaultSettings";
